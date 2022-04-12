@@ -22,14 +22,13 @@ public class Account implements Externalizable {
 
     public Account(){
     }
-
-    public Account(long accountNumber, String customerName, double loanBalance,
-                   int creditScore, String...tags){
+    //int creditScore, String...tags
+    public Account(long accountNumber, String customerName, double loanBalance){
         this.accountNumber=accountNumber;
         this.customerName=customerName;
         this.loanBalance=loanBalance;
-        this.creditScore=creditScore;
-        this.tags=tags;
+        //this.creditScore=creditScore;
+        //this.tags=tags;
 
        // this.creditCard= new CreditCard(cardType);
     }

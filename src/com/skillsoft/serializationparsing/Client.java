@@ -1,6 +1,5 @@
 package com.skillsoft.serializationparsing;
 
-/*
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -16,13 +15,12 @@ public class Client {
 
         System.out.println("*** Creating Objects");
 
-        */
-/*Account account1 = new Account(101001,"Bill Gates",1555.5f);
+        Account account1 = new Account(101001,"Bill Gates",1555.5f);
         Account account2 = new Account(2002002,"Paul Allen",1272.5f);
-        Account account3 = new Account(3030333,"Will Smith",435.5f);*//*
+        Account account3 = new Account(3030333,"Will Smith",435.5f);
 
 
-     //   List<Account> accountList = Arrays.asList(account1,account2,account3);
+         List<Account> accountList = Arrays.asList(account1,account2,account3);
 
         ObjectOutputStream objOut = null;
 
@@ -53,4 +51,3 @@ public class Client {
         }
     }
 }
-*/
